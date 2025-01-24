@@ -1,0 +1,9 @@
+services:
+  music-streaming:
+    build: .
+    container_name: music-streaming-server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./music:/app/music:ro
+    restart: unless-stopped
