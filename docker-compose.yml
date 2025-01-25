@@ -6,4 +6,6 @@ services:
     volumes:
       - ./music:/app/music:ro
     user: streaming
+    env_file:
+      - .env
     # restart: unless-stopped
