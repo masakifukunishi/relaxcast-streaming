@@ -48,4 +48,25 @@
             <group>streaming</group>
         </changeowner>
     </security>
+    <mount>
+        <mount-name>/relaxing-jazz</mount-name>
+        <password>${ICECAST_SOURCE_PASSWORD}</password>
+        <max-listeners>500</max-listeners>
+        <fallback-mount>/relaxing-jazz</fallback-mount>
+    </mount>
+
+    <mount>
+        <mount-name>/rain-sounds</mount-name>
+        <password>${ICECAST_SOURCE_PASSWORD}</password>
+        <max-listeners>500</max-listeners>
+        <fallback-mount>/rain-sounds</fallback-mount>
+    </mount>
+
+    <mount>
+        <mount-name>/brown-noise</mount-name>
+        <password>${ICECAST_SOURCE_PASSWORD}</password>
+        <max-listeners>500</max-listeners>
+        <fallback-mount>/brown-noise</fallback-mount>
+    </mount>
+
 </icecast>
