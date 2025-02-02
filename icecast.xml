@@ -49,10 +49,10 @@
         </changeowner>
     </security>
     <mount>
-        <mount-name>/relaxing-jazz</mount-name>
+        <mount-name>/cafe-music</mount-name>
         <password>${ICECAST_SOURCE_PASSWORD}</password>
         <max-listeners>500</max-listeners>
-        <fallback-mount>/relaxing-jazz</fallback-mount>
+        <fallback-mount>/cafe-music</fallback-mount>
     </mount>
 
     <mount>
