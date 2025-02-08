@@ -1,4 +1,4 @@
-# RelaxTunes Streaming
+# RelaxCast Streaming
 
 - Rain Sounds
     - https://directory.audio/sound-effects/weather/32200-regular-and-continuous-rumbling-thunder
