@@ -1,19 +1,19 @@
-cafe_music_playlist = playlist("/app/music/cafe-music", mode="random")
-cafe_music_fallback = single("app/music/cafe-music/01.mp3")
-cafe_music_radio = fallback([cafe_music_playlist, cafe_music_fallback])
+ocean_sounds_playlist = playlist("/app/music/ocean-sounds", mode="random")
+ocean_sounds_fallback = single("app/music/ocean-sounds/01.mp3")
+ocean_sounds_radio = fallback([ocean_sounds_playlist, ocean_sounds_fallback])
 
 output.icecast(%mp3,
   host = "localhost",
   port = 8000,
   password = getenv("ICECAST_SOURCE_PASSWORD"),
-  mount = "/cafe-music",
-  name = "Relaxing Jazz",
-  cafe_music_radio
+  mount = "/ocean-sounds",
+  name = "Ocean Sounds",
+  ocean_sounds_radio
 )
 
 
 rain_sounds_playlist = playlist("/app/music/rain-sounds", mode="random")
-rain_sounds_fallback = single("app/music/rain-sounds/rain-sounds.mp3")
+rain_sounds_fallback = single("app/music/rain-sounds/01.mp3")
 rain_sounds_radio = fallback([rain_sounds_playlist, rain_sounds_fallback])
 
 output.icecast(%mp3,
@@ -27,7 +27,7 @@ output.icecast(%mp3,
 
 
 brown_noise_playlist = playlist("/app/music/brown-noise", mode="random")
-brown_noise_fallback = single("app/music/brown-noise/brown-noise.mp3")
+brown_noise_fallback = single("app/music/brown-noise/01.mp3")
 brown_noise_radio = fallback([brown_noise_playlist, brown_noise_fallback])
 
 output.icecast(%mp3,

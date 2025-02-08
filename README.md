@@ -1,7 +1,10 @@
-# minimal-tune-streaming
+# RelaxTunes Streaming
 
-- Rain Sound
+- Rain Sounds
     - https://directory.audio/sound-effects/weather/32200-regular-and-continuous-rumbling-thunder
+
+- Ocean Sounds
+    - https://archive.org/details/ocean-sea-sounds
 
 - Brown Noise
     - https://creazilla.com/media/audio/15401267/brown-noise
