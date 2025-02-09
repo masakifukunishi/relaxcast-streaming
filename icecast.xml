@@ -55,10 +55,10 @@
         </changeowner>
     </security>
     <mount>
-        <mount-name>/cafe-music</mount-name>
+        <mount-name>/ocean-sounds</mount-name>
         <password>${ICECAST_SOURCE_PASSWORD}</password>
         <max-listeners>500</max-listeners>
-        <fallback-mount>/cafe-music</fallback-mount>
+        <fallback-mount>/ocean-sounds</fallback-mount>
     </mount>
 
     <mount>
