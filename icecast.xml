@@ -75,4 +75,11 @@
         <fallback-mount>/brown-noise</fallback-mount>
     </mount>
 
+    <mount>
+        <mount-name>/fireplace-sounds</mount-name>
+        <password>${ICECAST_SOURCE_PASSWORD}</password>
+        <max-listeners>500</max-listeners>
+        <fallback-mount>/fireplace-sounds</fallback-mount>
+    </mount>
+
 </icecast>

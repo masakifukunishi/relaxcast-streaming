@@ -38,3 +38,16 @@ output.icecast(%mp3,
   name = "Brown Noise",
   brown_noise_radio
 )
+
+fireplace_sounds_playlist = playlist("/app/music/fireplace-sounds", mode="random")
+fireplace_sounds_fallback = single("app/music/fireplace-sounds/01.mp3")
+fireplace_sounds_radio = fallback([fireplace_sounds_playlist, fireplace_sounds_fallback])
+
+output.icecast(%mp3,
+  host = "localhost",
+  port = 8000,
+  password = getenv("ICECAST_SOURCE_PASSWORD"),
+  mount = "/fireplace-sounds",
+  name = "Fireplace Sounds",
+  fireplace_sounds_radio
+)
