@@ -3,7 +3,7 @@
     <admin>fmsknn@gmail.com</admin>
     <limits>
         <clients>1000</clients>
-        <sources>3</sources>
+        <sources>4</sources>
         <threadpool>5</threadpool>
         <queue-size>262144</queue-size>
         <client-timeout>30</client-timeout>

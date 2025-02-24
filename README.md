@@ -9,4 +9,7 @@
 - Brown Noise
     - https://creazilla.com/media/audio/15401267/brown-noise
 
+- Fireplace Sounds
+    - https://creazilla.com/search/audio/fireplace
+
 Using Creative Commons Zero license sound files
