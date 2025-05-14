@@ -13,4 +13,4 @@ docker compose up
 - Rain Sounds：http://localhost:8000/rain-sounds
 - Brown Noise：http://localhost:8000/brown-noise
 - Ocean Sounds：http://localhost:8000/ocean-sounds
-- Fireplace Sounds：http://localhost:8000/fireplace-sounds<
+- Fireplace Sounds：http://localhost:8000/fireplace-sounds
