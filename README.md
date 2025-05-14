@@ -1,15 +1,16 @@
 # RelaxCast Streaming
+This project is a lightweight internet radio streaming server powered by Icecast2 and Liquidsoap, all containerized using Docker.
 
-- Rain Sounds
-    - https://directory.audio/sound-effects/weather/32200-regular-and-continuous-rumbling-thunder
+- Icecast2 handles streaming distribution and provides a web interface.
+- Liquidsoap serves as the audio source generator and manages streaming logic.
 
-- Ocean Sounds
-    - https://archive.org/details/ocean-sea-sounds
+## How to build
+```
+docker compose up
+```
 
-- Brown Noise
-    - https://creazilla.com/media/audio/15401267/brown-noise
-
-- Fireplace Sounds
-    - https://creazilla.com/search/audio/fireplace
-
-Using Creative Commons Zero license sound files
+## How to Access
+- Rain Sounds：http://localhost:8000/rain-sounds
+- Brown Noise：http://localhost:8000/brown-noise
+- Ocean Sounds：http://localhost:8000/ocean-sounds
+- Fireplace Sounds：http://localhost:8000/fireplace-sounds<
